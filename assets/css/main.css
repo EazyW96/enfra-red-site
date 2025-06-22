@@ -1784,3 +1784,24 @@ body.is-article-visible #footer {
 body.is-preload #footer {
   opacity: 0;
 }
+
+.music-player-section {
+  padding: 2em;
+  background: #111;
+  text-align: center;
+  color: #fff;
+}
+
+.music-player-section {
+  padding: 2em;
+  background: transparent; /* Now see-through */
+  text-align: center;
+}
+
+.embed-container iframe {
+  border-radius: 12px;
+  max-width: 500px;
+  height: 152px;
+  margin: 0 auto;
+  display: block;
+}
